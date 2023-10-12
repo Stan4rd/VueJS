@@ -1,0 +1,671 @@
+<template>
+ <NavBarVue/> 
+ <!-- <worldImage/>  -->
+ <!-- <h2 class="homeText"> Welcome to your Application</h2> -->
+
+ <div class="canopy-hub-container">
+    <div class="canopy-hub-canopy-hub">
+      <div class="canopy-hub-home2">
+        <div class="canopy-hub-text h2">
+          <div>what is climate change?</div>
+        </div>
+        <div class="canopy-hub-text02">
+          <div>
+            <div>
+              Climate change refers to long-term shifts in weather patterns and
+              average temperatures on Earth.
+              <div v-html="rawt4tf"></div>
+            </div>
+            <br />
+            <div>
+              They are primarily caused by human activities, particularly the
+              burning of fossil fuels and deforestation.
+            </div>
+            <br />
+            <div>
+              These activities release large amounts of greenhouse gases, such as
+              carbon dioxide (CO2), into the atmosphere, trapping heat and causing
+              the Earth&apos;s temperature to rise.
+            </div>
+          </div>
+        </div>
+        <div class="canopy-hub-pexelspixabay3964911"> 
+         <img src="../assets/images/world.png" alt="worldImage">
+
+
+        </div>
+      </div>
+      <div class="canopy-hub-home3">
+        <div class="canopy-hub-climate-change-effects">
+          <div class="canopy-hub-text09 h2">
+            <span>Effects Of Climate Change</span>
+          </div>
+          <div class="canopy-hub-pexelsandreaschettino39232771"> 
+          <img src="../assets/images/melting.png" alt="meltingImage" >
+          </div>
+
+          <div class="canopy-hub-chrisleboutillierc7rwvgl8l-paunsplash1"> 
+          <img src="../assets/images/pollution.png" alt="pollutionImage"     >
+          
+          </div>
+
+          <div class="canopy-hub-huperbyjoshuaearlem-er-sb-loq-sjkunsplash11"> 
+          <img src="../assets/images/tree.png" alt="treeImage">
+          </div>
+        </div>
+        <div class="canopy-hub-text11">
+          <div>
+            <div>melting ice caps</div>
+            <br />
+            <div></div>
+          </div>
+        </div>
+        <div class="canopy-hub-text16">
+          <div>
+            pollution
+            <div v-html="rawo2uc"></div>
+          </div>
+        </div>
+        <div class="canopy-hub-text18">desertification</div>
+        <div class="canopy-hub-text20">and many more</div>
+      </div>
+      <div class="canopy-hub-text22">
+        <div>
+          <div>How Do We Come In?</div>
+          <br />
+          <div></div>
+        </div>
+      </div>
+      <div class="canopy-hub-text27">
+        <div>
+          we focus on TREE PLANTING to curb the climate change menace.
+          <div v-html="rawkqv2"></div>
+        </div>
+      </div>
+      <div class="canopy-hub-pexelsakilmazumder10728241"> 
+      <img src="../assets/images/seedling.png" alt="seedlingImage">
+      
+      </div>
+      <div class="canopy-hub-button1">
+        <!-- <img
+          src="/rectangle3748-89crj-200h.png"
+          alt="Rectangle3748"
+          class="canopy-hub-rectangle3"
+        /> -->
+        <!-- <div class="canopy-hub-text29">get started</div> -->
+      </div>
+      <div class="canopy-hub-logoand-navigation">
+        <!-- <img
+          src="/rectangle153-jyiff-200h.png"
+          alt="Rectangle153"
+          class="canopy-hub-rectangle1"
+        /> -->
+        <div class="canopy-hub-text31">
+          <div>
+            canopy hub
+            <div v-html="rawbqkv"></div>
+          </div>
+          </div>
+        <!-- <div class="canopy-hub-text33">home</div>
+        <div class="canopy-hub-text35">About</div>
+        <div class="canopy-hub-text37">Register</div> -->
+        <div class="canopy-hub-home1">
+          <div class="canopy-hub-pexelsthisiszun16797861"> 
+         <img src="../assets/images/cover.png" alt="coverImage">
+          </div>
+          <div class="canopy-hub-text39">
+            <div>we work to keep our world green</div>
+          </div>
+        </div>
+      </div>
+      <!-- <img
+        src="/rectangle4762-mctd-400h.png"
+        alt="Rectangle4762"
+        class="canopy-hub-rectangle4"
+      /> -->
+      <div class="canopy-hub-text41">our contacts</div>
+      <img src="/line1764-spio.svg" alt="Line1764" class="canopy-hub-line1" />
+      <div class="canopy-hub-text43">Telephone: +257289873645</div>
+      <div class="canopy-hub-text45">
+        <div>Email: info@canopyhub.com</div>
+      </div>
+      <div class="canopy-hub-text47">Follow Us</div>
+      <div class="canopy-hub-text49">Instagram</div>
+      <div class="canopy-hub-text51">faceboook</div>
+      <div class="canopy-hub-text53">LinkedIn</div>
+    </div>
+  </div>
+
+
+
+</template>
+
+
+
+
+
+
+
+<style >
+.homeText{
+font-style: bold; 
+font-size: 50px;
+margin: 200px;
+margin-left: 400px;
+
+}
+
+.canopy-hub-container {
+  width: 100%;
+  display: flex;
+  overflow:auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.canopy-hub-canopy-hub {
+  width: 100%;
+  height: 3208px;
+  display: flex;
+  overflow: auto;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  background-color: rgb(33, 32, 44);
+}
+.canopy-hub-home2 {
+  top: 784px;
+  left: 160px;
+  width: 928px;
+  height: 514px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.canopy-hub-text {
+  color: rgb(4, 2, 0);
+  width: 436px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 82.90000557899475%;
+}
+.canopy-hub-text02 {
+  top: 63px;
+  left: 5px;
+  color: rgb(236, 227, 219);
+  width: 548px;
+  height: auto;
+  position: absolute;
+  font-size: 31px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: 132.40000009536743%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-pexelspixabay3964911 {
+  top: 18px;
+  left: 573px;
+  width: 355px;
+  height: 388px;
+  position: absolute;
+}
+.canopy-hub-home3 {
+  top: 1463px;
+  left: 150px;
+  width: 973px;
+  height: 447px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.canopy-hub-climate-change-effects {
+  top: 0px;
+  left: 0px;
+  width: 956px;
+  height: 340px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.canopy-hub-text09 {
+  left: 242px;
+  color: rgba(229, 160, 91, 1);
+  width: 682px;
+  height: auto;
+  position: absolute;
+  text-align: left;
+  line-height: 82.90000557899475%;
+}
+.canopy-hub-pexelsandreaschettino39232771 {
+  top: 140px;
+  left: 0px;
+  width: 200px;
+  height: 150px;
+  position: absolute;
+}
+.canopy-hub-chrisleboutillierc7rwvgl8l-paunsplash1 {
+  top: 140px;
+  left: 344px;
+  width: 295px;
+  height: 150px;
+  position: absolute;
+}
+.canopy-hub-huperbyjoshuaearlem-er-sb-loq-sjkunsplash11 {
+  top: 140px;
+  left: 668px;
+  width: 288px;
+  height: 200px;
+  position: absolute;
+}
+.canopy-hub-text11 {
+  top: 340px;
+  left: 126px;
+  color: rgba(253, 247, 242, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: 132.40000009536743%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-text16 {
+  top: 343px;
+  left: 479px;
+  color: rgba(253, 247, 242, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: 132.40000009536743%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-text18 {
+  top: 343px;
+  left: 804px;
+  color: rgba(253, 247, 242, 1);
+  height: auto;
+  position: absolute;
+  font-size: 12px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 400;
+  line-height: 132.40000009536743%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-text20 {
+  top: 429px;
+  left: 832px;
+  color: rgba(253, 247, 242, 1);
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: right;
+  font-family: Inria Sans;
+  font-weight: 700;
+  line-height: 82.90000557899475%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-text22 {
+  top: 2041px;
+  left: 233px;
+  color: rgba(255, 255, 255, 1);
+  width: 693px;
+  height: auto;
+  position: absolute;
+  font-size: 44px;
+  font-style: Light;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 300;
+  line-height: 82.90000557899475%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-text27 {
+  top: 2092px;
+  left: 213px;
+  color: rgba(255, 255, 255, 1);
+  width: 388px;
+  height: auto;
+  position: absolute;
+  font-size: 72px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 700;
+  line-height: 128.90000343322754%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-pexelsakilmazumder10728241 {
+  top: 2119px;
+  left: 650px;
+  width: 480px;
+  height: 355px;
+  position: absolute;
+}
+.canopy-hub-button1 {
+  top: 2557px;
+  left: 881px;
+  width: 279px;
+  height: 74px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.canopy-hub-rectangle3 {
+  top: 0px;
+  left: 0px;
+  width: 249px;
+  height: 74px;
+  position: absolute;
+  border-radius: 35px;
+}
+.canopy-hub-text29 {
+  top: 19px;
+  left: 33px;
+  color: rgba(0, 0, 0, 1);
+  width: 246px;
+  height: auto;
+  position: absolute;
+  font-size: 28px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 700;
+  line-height: 128.90000343322754%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-logoand-navigation {
+  top: 3px;
+  left: 150px;
+  width: 980px;
+  height: 693px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.canopy-hub-rectangle1 {
+  top: 0px;
+  left: 0px;
+  width: 980px;
+  height: 171px;
+  position: absolute;
+}
+.canopy-hub-text31 {
+  top: 8.0335693359375px;
+  left: 20px;
+  color: rgba(229, 160, 91, 1);
+  width: 193px;
+  height: auto;
+  position: absolute;
+  font-size: 55px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25) ;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 700;
+  line-height: 82.90000557899475%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-text33 {
+  top: 20.65771484375px;
+  left: 583px;
+  color: rgba(229, 160, 91, 1);
+  width: 84px;
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 700;
+  line-height: 82.90000557899475%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-text35 {
+  top: 20.65771484375px;
+  left: 675px;
+  color: rgba(229, 160, 91, 1);
+  width: 84px;
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 700;
+  line-height: 82.90000557899475%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-text37 {
+  top: 20.65771484375px;
+  left: 767px;
+  color: rgba(229, 160, 91, 1);
+  width: 130px;
+  height: auto;
+  position: absolute;
+  font-size: 22px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 700;
+  line-height: 82.90000557899475%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-home1 {
+  top: 171px;
+  left: 0px;
+  width: 980px;
+  height: 522px;
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  flex-shrink: 1;
+}
+.canopy-hub-pexelsthisiszun16797861 {
+  top: 0px;
+  left: 53px;
+  width: 50%;
+  height: auto;
+  position:absolute;
+  display: flex;
+}
+.canopy-hub-text39 {
+  top: 43px;
+  left: 53px;
+  color: rgba(228, 159, 90, 0.9700000286102295);
+  width: 221px;
+  height: auto;
+  position: absolute;
+  font-size: 72px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 700;
+  line-height: 82.90000557899475%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-rectangle4 {
+  top: 2867px;
+  left: 0px;
+  width: 1280px;
+  height: 359px;
+  position: absolute;
+}
+.canopy-hub-text41 {
+  top: 2894px;
+  left: 735px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Light;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 300;
+  line-height: 82.90000557899475%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-line1 {
+  top: 2867.0009765625px;
+  left: 600.9995727539062px;
+  width: 346px;
+  height: 1px;
+  position: absolute;
+}
+.canopy-hub-text43 {
+  top: 2934px;
+  left: 733px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Light;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 300;
+  line-height: 104.90000247955322%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-text45 {
+  top: 3009px;
+  left: 735px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Light;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 300;
+  line-height: 104.90000247955322%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-text47 {
+  top: 2888px;
+  left: 65px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 16px;
+  font-style: Light;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 300;
+  line-height: 82.90000557899475%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-text49 {
+  top: 2948px;
+  left: 65px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Light;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 300;
+  line-height: 82.90000557899475%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-text51 {
+  top: 3011px;
+  left: 65px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Light;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 300;
+  line-height: 82.90000557899475%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.canopy-hub-text53 {
+  top: 3074px;
+  left: 65px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 32px;
+  font-style: Light;
+  text-align: left;
+  font-family: Inria Sans;
+  font-weight: 300;
+  line-height: 82.90000557899475%;
+  font-stretch: normal;
+  text-decoration: none;
+}
+
+
+
+
+</style>
+
+
+
+<script>
+// eslint-disable-next-line no-unused-vars;
+// import worldImage from "@/assets/images/world.png" 
+
+import NavBarVue from "./NavBar.vue";
+
+
+export default{
+  components:{
+    NavBarVue
+  },
+
+
+
+  name: 'CanopyHub',
+  props: {},
+  data() {
+    return {
+      // worldImage: ("../assets/images/world.png"),
+      rawt4tf: ' ',
+      rawo2uc: ' ',
+      rawkqv2: ' ',
+      rawbqkv: ' ',
+    };
+
+  },
+};
+
+</script>
